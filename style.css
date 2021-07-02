@@ -10,7 +10,7 @@ body{
   width: 100%;
   height: 100%;
   background-size: cover; 
-  background-image: url("img/photo_2021-06-14_15-32-07.jpg");
+  background-image: url("img/s.jpg");
   background-position: 0px;
   background-color: #0000006e;
   background-blend-mode: darken;
@@ -58,7 +58,7 @@ header{
   }
   
   .links a:hover {
-  color: red;
+  color: rgb(112, 112, 112);
   }
   
   .links a {
@@ -73,12 +73,12 @@ header{
   }
 
 .title {
-  color: orange;
+  color: rgb(240, 149, 13);
   font-family: 'Roboto', sans-serif;
 }
 
 .subtitle {
-  color: rgb(194, 189, 189);
+  color: rgb(136, 136, 136);
 }
 
 .link1 {
