@@ -10,7 +10,7 @@ body{
   width: 100%;
   height: 100%;
   background-size: cover; 
-  background-image: url("photo_2021-06-14_15-32-07.jpg");
+  background-image: url("img/photo_2021-06-14_15-32-07.jpg");
   background-position: 0px;
   background-color: #0000006e;
   background-blend-mode: darken;
@@ -21,7 +21,17 @@ body{
   flex-direction: column;
 }
 
+main p {
+  font-size: 40px;
+  font-weight: 300px;
+  max-width: 380px;
+  font-family: 'Roboto', Bold 700;
+}
 
+main{
+  flex-grow: 1;
+  padding: 25vh 10vw;
+}
 
 header{
   background-color: #ffffff;
@@ -32,10 +42,13 @@ header{
   align-items: center;
   }
 
+
 .links ul {
   display: flex;
   gap: 20px;
   list-style-type: none;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(9, 255, 0);
   }
   
   .caracteristicas ul {
@@ -58,3 +71,45 @@ header{
   a {
   text-decoration: none;
   }
+
+.title {
+  color: orange;
+  font-family: 'Roboto', sans-serif;
+}
+
+.subtitle {
+  color: rgb(194, 189, 189);
+}
+
+.link1 {
+  color: grey;
+}
+
+.link2 {
+  color: grey;
+}
+
+.link3 {
+  color: grey;
+}
+
+.link4 {
+  color: grey;
+}
+
+.link5 {
+  color: grey;
+}
+
+.link6 {
+  color: grey;
+}
+
+.link7 {
+  color: grey;
+}
+
+.linkRes {
+  color: rgba(255, 255, 255, 0.767);
+
+}
