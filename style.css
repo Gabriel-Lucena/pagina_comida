@@ -1,115 +1,113 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-
-body{
-  width: 100vw;
-  width: 100%;
-  height: 100%;
-  background-size: cover; 
-  background-image: url("img/s.jpg");
-  background-position: 0px;
-  background-color: #0000006e;
-  background-blend-mode: darken;
-  color: white;
-  font-family: 'Source Sans Pro', sans-serif;
-  background-position: cover;
-  display: flex;
-  flex-direction: column;
+body {
+	width: 100vw;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-image: url("img/s.jpg");
+	background-position: 0px;
+	background-color: #0000006e;
+	background-blend-mode: darken;
+	color: white;
+	font-family: "Source Sans Pro", sans-serif;
+	background-position: cover;
+	display: flex;
+	flex-direction: column;
+	user-select: none;
 }
 
 main p {
-  font-size: 40px;
-  font-weight: 300px;
-  max-width: 380px;
-  font-family: 'Roboto', Bold 700;
+	font-size: 40px;
+	font-weight: 300px;
+	max-width: 380px;
+	font-family: "Roboto", Bold 700;
 }
 
-main{
-  flex-grow: 1;
-  padding: 25vh 10vw;
+main {
+	flex-grow: 1;
+	padding: 25vh 10vw;
 }
 
-header{
-  background-color: #ffffff;
-  height: 70px;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 10vw;
-  align-items: center;
-  }
-
+header {
+	background-color: #ffffff;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 10vw;
+	align-items: center;
+}
 
 .links ul {
-  display: flex;
-  gap: 20px;
-  list-style-type: none;
-  font-family: 'Roboto', sans-serif;
-  color: rgb(9, 255, 0);
-  }
-  
-  .caracteristicas ul {
-    display: flex;
-    gap: 20px;
-    list-style-type: none;
-  }
-  
-  .links a:hover {
-  color: rgb(112, 112, 112);
-  }
-  
-  .links a {
-  text-decoration: none;
-  transition: all 1s;
-  user-select: none;
-  font-size: 20px;
-  }
-  
-  a {
-  text-decoration: none;
-  }
+	display: flex;
+	gap: 20px;
+	list-style-type: none;
+	font-family: "Roboto", sans-serif;
+	color: rgb(9, 255, 0);
+}
+
+.caracteristicas ul {
+	display: flex;
+	gap: 20px;
+	list-style-type: none;
+}
+
+.links a:hover {
+	color: rgb(112, 112, 112);
+}
+
+.links a {
+	text-decoration: none;
+	transition: all 1s;
+	user-select: none;
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+}
 
 .title {
-  color: rgb(240, 149, 13);
-  font-family: 'Roboto', sans-serif;
+	color: rgb(240, 149, 13);
+	font-family: "Roboto", sans-serif;
 }
 
 .subtitle {
-  color: rgb(136, 136, 136);
+	color: rgb(136, 136, 136);
 }
 
 .link1 {
-  color: grey;
+	color: grey;
 }
 
 .link2 {
-  color: grey;
+	color: grey;
 }
 
 .link3 {
-  color: grey;
+	color: grey;
 }
 
 .link4 {
-  color: grey;
+	color: grey;
 }
 
 .link5 {
-  color: grey;
+	color: grey;
 }
 
 .link6 {
-  color: grey;
+	color: grey;
 }
 
 .link7 {
-  color: grey;
+	color: grey;
 }
 
 .linkRes {
-  color: rgba(255, 255, 255, 0.767);
-
+	color: rgba(255, 255, 255, 0.767);
 }
